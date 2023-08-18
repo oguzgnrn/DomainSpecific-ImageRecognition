@@ -1,4 +1,4 @@
-# YOLOv5-DomainSpecific
+# DomainSpecific-ImageRecognition
 
 ### I'm a passionate contributor to the TUBITAK project that is focused on image recognition and Deep Learning. I took on a wide variety of tasks covering the project's life cycle as part of this engaged activity.
 
