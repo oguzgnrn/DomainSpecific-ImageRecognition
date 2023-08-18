@@ -1,29 +1,22 @@
-import keras
-import tensorflow as tf
 import numpy as np
 import cv2
 import os
 import matplotlib.pyplot as plt
 from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input
-from keras.applications.vgg16 import VGG16, preprocess_input
-from keras.applications.resnet import ResNet50, preprocess_input
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten, Dropout, Input
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.callbacks import ModelCheckpoint
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import classification_report
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
+from sklearn.metrics import confusion_matrix, classification_report
 import seaborn as sns
 from numpy import genfromtxt
 import keras.backend as K
-from keras.layers import Input, Dense, Conv2D, Conv3D, DepthwiseConv2D, SeparableConv2D, Conv3DTranspose
-from keras.layers import Flatten, MaxPool2D, AvgPool2D, GlobalAvgPool2D, UpSampling2D, BatchNormalization
-from keras.layers import Concatenate, Add, Dropout, ReLU, Lambda, Activation, LeakyReLU, PReLU
+from keras.layers import Conv3D, DepthwiseConv2D, SeparableConv2D, Conv3DTranspose
+from keras.layers import Flatten, AvgPool2D, GlobalAvgPool2D, UpSampling2D, BatchNormalization
+from keras.layers import Concatenate, Add, LeakyReLU, PReLU
 from IPython.display import SVG
 from keras.utils.vis_utils import model_to_dot
 from time import time
-
 
 size = 224
 bs = 32
