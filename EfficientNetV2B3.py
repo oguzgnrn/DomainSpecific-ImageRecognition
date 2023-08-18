@@ -1,56 +1,24 @@
 from keras.layers import Input, Lambda, Dense, Flatten
 from keras.models import Model
-from keras.applications.resnet import ResNet
+from keras.applications.resnet import ResNet, ResNet50
 from keras.applications.vgg19 import VGG19
 from keras.applications.resnet_v2 import ResNet50V2
-
 from keras.preprocessing import image
 from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Sequential
 import numpy as np
 import os
 import PIL
 from glob import glob
 import tensorflow as tf
 import timeit
-import tensorflow
-from keras.layers import Input, Lambda, Dense, Flatten
-from keras.models import Model
 import pathlib
 import enum
 import matplotlib.pyplot as plt
 import seaborn as sns
-from keras.layers import Input, Lambda, Dense, Flatten
-from keras.models import Model
-from keras.applications.resnet import ResNet50
-from keras.preprocessing import image
-from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Sequential
 from keras.applications.efficientnet_v2 import EfficientNetV2B3
-import numpy as np
-import os
-import PIL
-from glob import glob
-import tensorflow as tf
-import timeit
-import tensorflow
-from keras.layers import Input, Lambda, Dense, Flatten
-from keras.models import Model
-import pathlib
-import enum
-import matplotlib.pyplot as plt
-import seaborn as sns
-import keras
-from keras.models import Sequential
-from keras.layers import Dense,Activation,Dropout,Flatten,Conv2D,MaxPooling2D,BatchNormalization
+from keras.layers import Activation, Dropout, Conv2D, MaxPooling2D, BatchNormalization
 from keras.losses import categorical_crossentropy
-import numpy as np
 
-
-
-
-# epoch_size=[25,50,100]
-from keras.applications.resnet import ResNet50
 main_path = "C:/Users/gnrno/PycharmProjects/pythonBase/"
 fold_name=['fold1','fold2','fold3','fold4','fold5',]
 learning_rate= [0.000001]
@@ -63,12 +31,12 @@ for lr in learning_rate:
     valid_path = main_path + fn +'/test/images'
     for name in os.listdir(train_path):
       confusion_labels.append(name)
-    #inception = tf.keras.applications.EfficientNetV2B3(
-    # #   include_top=False,
-     #   weights="imagenet",
-    #    input_shape=(224,224,3),
-    #    classes=30,
-     #   classifier_activation="softmax")
+    inception = tf.keras.applications.EfficientNetV2B3(
+       include_top=False,
+       weights="imagenet",
+       input_shape=(224,224,3),
+       classes=30,
+       classifier_activation="softmax")
     inception = EfficientNetV2B3(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False,
                                  include_preprocessing=False)
 
