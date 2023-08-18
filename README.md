@@ -12,7 +12,7 @@
 
 ### My focus was primarily on the 100 class dataset, where I've compiled and annotated data with a view to establishing robust model training. To ensure data quality, I employed advanced image preprocessing techniques, including histogram equalization and glare reduction, which significantly enhanced the dataset's utility.
 
-<img src="https://github.com/oguzgnrn/YOLOv5-DomainSpecific/assets/96068121/b71489ed-6577-449a-b0f1-b03fd35b05fd" alt="Project Image" width="350" height="350"> <img src="https://github.com/oguzgnrn/YOLOv5-DomainSpecific/assets/96068121/65355b8a-1388-4974-a523-0d20f39a2aa7" alt="Project Image" width="400" height="400">
+<img src="https://github.com/oguzgnrn/YOLOv5-DomainSpecific/assets/96068121/b71489ed-6577-449a-b0f1-b03fd35b05fd" alt="Project Image" width="350" height="350"> <img src="https://github.com/oguzgnrn/YOLOv5-DomainSpecific/assets/96068121/65355b8a-1388-4974-a523-0d20f39a2aa7" alt="Project Image" width="350" height="350">
 
 This is an unfiltered picture of black sunflower seeds           /     And this is the same image after the filtering step
 
