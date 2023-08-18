@@ -1,13 +1,3 @@
-from keras.layers import Input, Lambda, Dense, Flatten
-from keras.models import Model
-from keras.applications.resnet import ResNet
-from keras.applications.vgg19 import VGG19
-from keras.applications.resnet_v2 import ResNet101V2
-from keras.preprocessing import image
-from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Sequential
-import numpy as np
-import os
 import PIL
 from glob import glob
 import tensorflow as tf
@@ -26,24 +16,10 @@ from keras.preprocessing import image
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 import numpy as np
-import os
-import PIL
-from glob import glob
-import tensorflow as tf
-import timeit
-import tensorflow
-from keras.layers import Input, Lambda, Dense, Flatten
-from keras.models import Model
-import pathlib
-import enum
-import matplotlib.pyplot as plt
-import seaborn as sns
 import keras
 from keras.models import Sequential
 from keras.layers import Dense,Activation,Dropout,Flatten,Conv2D,MaxPooling2D,BatchNormalization
 from keras.losses import categorical_crossentropy
-import numpy as np
-# epoch_size=[25,50,100]
 from keras.applications.resnet import ResNet50
 main_path = "C:/Users/gnrno/PycharmProjects/pythonBase/"
 fold_nam=['fold1','fold2','fold3','fold4','fold5']
