@@ -29,7 +29,7 @@ This is an unfiltered picture of black sunflower seeds           /     And this 
 
 
 
-###  I've spent most of my effort refining the YOLO model to detect and classify objects in a precise manner, aligning this with our project's particular needs. I played a critical role in the optimization of model accuracy and overall performance by performing iterative experiments and architecture adaptations.
+###  I've spent most of my effort refining the models to detect and classify objects in a precise manner, aligning this with our project's particular needs. I played a critical role in the optimization of model accuracy and overall performance by performing iterative experiments and architecture adaptations.
   
 <img src="https://github.com/oguzgnrn/YOLOv5-DomainSpecific/assets/96068121/c05bd5b7-52c7-46f3-935d-e5fcf4401c61" alt="Project Image" width="900" height="700">
 
@@ -38,7 +38,7 @@ This is an unfiltered picture of black sunflower seeds           /     And this 
 
 
 
-### I have acquired profound knowledge which has become important to the project's success through my active participation in dataset curation, rigorous image preprocessing and extended model experimentation. A testament to my commitment to excellence, my comprehensive approach ensured that the last model did not just fulfil project objectives but went beyond them.
+### I have acquired profound knowledge which has become important to the project's success through my active participation in dataset curation, rigorous image preprocessing and extended model experimentation.
  
 <img src="https://github.com/oguzgnrn/YOLOv5-DomainSpecific/assets/96068121/61d5af17-78f3-4e59-ae09-817f0c5f6229" alt="Project Image" width="900" height="700">
 
