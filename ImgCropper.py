@@ -1,8 +1,7 @@
 import glob
 from PIL import Image
 
-Image.MAX_IMAGE_PIXELS = 1000000000000
-txtList = []
+Image.MAX_IMAGE_PIXELS = 1000000
 imgList = []
 path = []#folder path
 imgs = [f for f in glob.glob(path + "**/*.jpeg", recursive=True)]
